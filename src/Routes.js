@@ -8,7 +8,7 @@ import Portfolio from './pages/Portfolio';
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route path="/" component={Home} exact />
       <Route path="/about" component={About} />
       <Route path="/portfolio" component={Portfolio} />
       <Route component={NotFound} />

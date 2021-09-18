@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom';
+import { HeaderMenu, Nav, LinkMenu } from './style';
 
 function Header() {
   return (
-    <header className="App-header">
-      <nav>
-        <Link to="/">Inicio</Link>
-        <Link to="/about">Sobre</Link>
-        <Link to="/portfolio">Portfólio</Link>
-      </nav>
-    </header>
+    <HeaderMenu>
+      <Nav>
+        <LinkMenu to="/" activeClassName="selected" exact>Início</LinkMenu>
+        <LinkMenu to="/about" activeClassName="selected">Sobre</LinkMenu>
+        <LinkMenu to="/portfolio" activeClassName="selected">Portfólio</LinkMenu>
+      </Nav>
+    </HeaderMenu>
   );
 }
 
