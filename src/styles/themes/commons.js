@@ -1,6 +1,7 @@
 export default {
   sizing: {
     // defaults
+    xl: '2rem',
     l4: '1.875rem',
     l3: '1.75rem',
     l2: '1.625rem',

@@ -38,7 +38,7 @@ html {
 
 body {
   background: ${({ theme }) => theme.colors.bg};
-  color: ${({ theme }) => theme.colors.text3};
+  color: ${({ theme }) => theme.colors.text4};
   font-family: 'Glory', sans-serif;
   margin: 0;
 }

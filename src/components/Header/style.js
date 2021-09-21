@@ -6,10 +6,18 @@ const HeaderMenu = styled.header`
   justify-content: space-between;
   width: 100%;
   padding: ${({ theme }) => theme.sizing.mp1} 0;
+
+  @media(max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 const Nav = styled.nav`
   margin-left: ${({ theme }) => theme.sizing.mp2};
+
+  @media(max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 const LinkMenu = styled(NavLink)`
@@ -27,7 +35,7 @@ const LinkMenu = styled(NavLink)`
     content: "";
     display: block;
     width: 0;
-    border-bottom: 2px solid ${({ theme }) => theme.colors.text5};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.text5};
     transition: 0.25s;
   }
 
@@ -37,7 +45,11 @@ const LinkMenu = styled(NavLink)`
 
   &.selected {
     color: ${({ theme }) => theme.colors.primary};
-    border-bottom-color: ${({ theme }) => theme.colors.primary};
+  }
+
+  &.selected:after {
+    width: 100%;
+    border-color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
