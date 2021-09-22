@@ -7,7 +7,10 @@ const HeaderMenu = styled.header`
   width: 100%;
   padding: ${({ theme }) => theme.sizing.mp1} 0;
 
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+
   @media(max-width: 768px) {
+    margin-bottom: ${({ theme }) => theme.sizing.mp2};
     justify-content: center;
   }
 `;
@@ -23,8 +26,9 @@ const Nav = styled.nav`
 const LinkMenu = styled(NavLink)`
   color: ${({ theme }) => theme.colors.text5};
   display: inline-block;
-  font-size: ${({ theme }) => theme.sizing.m2};
+  font-size: ${({ theme }) => theme.sizing.s4};
   font-weight: bold;
+  text-transform: uppercase;
   transition: 0.2s;
 
   & + a {
