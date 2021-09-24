@@ -20,16 +20,18 @@ export default function About() {
         </Paragraph>
 
         <Paragraph>
-          Atualmente estou focado em minha transição de carreira para a área na qual sou
-          formado, pois desde quando descobri o mundo da tecnologia - o que foi um pouco tarde,
-          diga-se de passagem - senti uma tendencia natual para viver nesse mundo.
+          Atualmente estou focado em minha transição de carreira para a área em que sou
+          formado, mais especificamente para o desenvolvimento de software. Sinto que tenho
+          uma tendência natural para viver nesse universo e quero permanecer nele por toda
+          minha vida. Amo toda abundancia de possibilidades e melhorias que a tecnologia está
+          trazendo e trará para o nosso mundo.
         </Paragraph>
 
         <Paragraph>
           Meu foco de estudos e programação está no ambiente javascript tanto no front-end
           como no back-end. Escolhi essa stack por conta da grande comunidade que a envolve e de
-          me sentir muito a vontade com a sintax e os modos da linguagem, apesar de também
-          ter interesse e vontade de aprender outras tecnogias.
+          me sentir muito a vontade com a sintaxe e os modos da linguagem, apesar de também
+          ter interesse e vontade de aprender outras tecnologias.
         </Paragraph>
       </Article>
 
