@@ -12,7 +12,7 @@ export default {
     m1: '1rem',
     s4: '0.875rem',
     s3: '0.75rem',
-    s2: '0.0625rem',
+    s2: '0.625rem',
     s1: '0.5rem',
     // spacing (margin | padding)
     mp1: '2rem',

@@ -8,5 +8,6 @@ export default {
     text4: 'hsl(210,14%,45%)',
     text5: 'hsl(210,14%,55%)',
     text6: 'hsl(210,14%,65%)',
+    text8: 'hsl(210,14%,85%)',
   },
 };
