@@ -16,11 +16,27 @@ const Img = styled.img`
   max-height: 60vh;
   -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
   filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+  animation: breathing-shadow 3.5s infinite;
 
+  @keyframes breathing-shadow {
+    0% {
+      -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+      filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+    }
+
+    50% {
+      -webkit-filter: drop-shadow(0 0 6px ${({ theme }) => theme.colors.primary});
+      filter: drop-shadow(0 0 6px ${({ theme }) => theme.colors.primary});
+    }
+
+    100% {
+      -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+      filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+    }
+  }
   @media(max-width: 992px) {
     margin-bottom: ${({ theme }) => theme.sizing.mp2};
     max-height: 50vh;
-
   }
 `;
 

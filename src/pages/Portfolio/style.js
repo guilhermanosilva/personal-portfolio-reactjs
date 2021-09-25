@@ -23,7 +23,7 @@ const ListRepo = styled.ul`
 `;
 
 const RepoCard = styled.li`
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.text10};
   border: 1px solid ${({ theme }) => theme.colors.text8};
   border-radius: 4px;
   display: flex;
