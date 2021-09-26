@@ -1,9 +1,12 @@
-import PropTypes from 'prop-types';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
 import {
   HeaderMenu, Nav, LinkMenu, ButtonTheme,
 } from './style';
 
-function Header({ onToggleTheme, selectedTheme }) {
+function Header() {
+  const { theme, onToggleTheme } = useContext(ThemeContext);
+
   return (
     <HeaderMenu>
       <Nav>
@@ -12,15 +15,10 @@ function Header({ onToggleTheme, selectedTheme }) {
         <LinkMenu to="/portfolio" activeClassName="selected">Portfólio</LinkMenu>
       </Nav>
       <ButtonTheme type="button" onClick={onToggleTheme}>
-        {selectedTheme === 'dark' ? '🌞' : '🌚'}
+        {theme === 'dark' ? '🌞' : '🌚'}
       </ButtonTheme>
     </HeaderMenu>
   );
 }
-
-Header.propTypes = {
-  onToggleTheme: PropTypes.func.isRequired,
-  selectedTheme: PropTypes.string.isRequired,
-};
 
 export default Header;
