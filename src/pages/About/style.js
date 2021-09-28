@@ -5,7 +5,6 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   margin: ${({ theme }) => theme.sizing.mp1} 0;
-  width: 100vw;
 `;
 
 const Title = styled.h1`
