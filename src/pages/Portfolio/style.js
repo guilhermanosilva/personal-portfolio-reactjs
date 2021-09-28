@@ -28,11 +28,11 @@ const RepoCard = styled.li`
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  transition: all 1s;
 
   &:hover {
     box-shadow: 0 0 2px ${({ theme }) => theme.colors.primary};
     border: 1px solid ${({ theme }) => theme.colors.primary};
-
   }
 
   a:hover{
