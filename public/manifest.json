@@ -1,25 +1,10 @@
 {
   "short_name": "Guilhermano Silva",
-  "name": "Personal portfolio page of Guilhermano Silva ",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
+  "name": "Guilhermano Silva portfolio",
+  "description": "Personal portfolio page of Guilhermano Silva",
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "fullscreen",
+  "theme_color": "#0ac266",
+  "background_color": "#161a1d",
+  "orientation": "portrait-primary"
 }
