@@ -3,7 +3,7 @@
 
 *Página pessoal com meu portfólio de projetos de desenvolvimento de softwares.*
 
-[Acessar Página](https://guilhermano.netlifly.app)
+[Acessar Página](https://guilhermano.netlify.app)
 
 <br />
 
