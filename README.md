@@ -15,6 +15,7 @@
 * Eslint
 * Editor Config
 * Conventional Commits
+* PWA
 
 <br />
 
