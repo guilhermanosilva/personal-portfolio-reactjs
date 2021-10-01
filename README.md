@@ -8,10 +8,11 @@
 <br />
 
 ## Ferramentas e tecnologias utilizadas
-* React.Js (useState, useMemo, useEffect, contextAPI )
+* React.Js (useState, useMemo, useEffect, contextAPI)
 * React Router Dom
 * Styled Components (Theming, Theme Provider)
 * Prop Types
+* React Spring
 * Eslint
 * Editor Config
 * Conventional Commits
