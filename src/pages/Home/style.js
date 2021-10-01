@@ -5,9 +5,11 @@ const Container = styled.div`
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: ${({ theme }) => theme.sizing.mp2};
+  width: 90vw;
 
   @media(max-width: 992px) {
     padding: 0 ${({ theme }) => theme.sizing.mp2};
+    width: 100vw;
   }
 `;
 
@@ -50,7 +52,7 @@ const ContainerTitle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: ${({ theme }) => theme.sizing.l1};
+  margin-bottom: ${({ theme }) => theme.sizing.l4};
 `;
 
 const Title = styled.h1`
